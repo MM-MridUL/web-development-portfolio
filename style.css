@@ -96,7 +96,15 @@ nav a {
   max-width: 500px;
 }
 .btn{
-  margin-right: 20px;
+  margin-left: 20px;
+  background-color: transparent;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+}
+.btn:hover{
+  background-color: #fd6e0a;
+  color: white;
+  transition: 0.4s;
 }
 
 /* Main section styles */
