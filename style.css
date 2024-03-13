@@ -130,7 +130,20 @@ main{
   justify-content: space-between;
 }
 .about-info{
-  background-color: yellow;
+ 
   text-align: center;
+ 
+}
+#what-i-do-description{
+  padding: 30px 150px;
 }
 
+/* What I do section */
+.skills-container{
+  display: flex;
+  justify-content: space-between;
+}
+.skills-container .skill{
+  background-color: gray;
+  width: 24%;
+}
