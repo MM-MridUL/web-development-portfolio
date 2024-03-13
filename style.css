@@ -113,6 +113,9 @@ main{
   margin: 0 auto;
 }
 
+main section{
+  margin-top: 131px;
+}
 
 
 
@@ -134,16 +137,37 @@ main{
   text-align: center;
  
 }
+/* What I do section */
+
 #what-i-do-description{
   padding: 30px 150px;
 }
 
-/* What I do section */
+
 .skills-container{
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 .skills-container .skill{
-  background-color: gray;
-  width: 24%;
+  /* background-color: gray; */
+  padding: 20px;
+ 
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
 }
+.skill-description {
+  color: #757575;
+  
+}
+.skill-title{
+ 
+}
+
+/* Resume section styles */
+.resume-colum-title{
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
